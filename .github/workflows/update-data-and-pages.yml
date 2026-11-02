@@ -33,7 +33,7 @@ jobs:
 
       - name: Google Sheets CSV verisini indir
         env:
-          SHEET_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vT63PjoDicpT-KLClWQUWT_jikH_8JeLGOgV-JaGZS-nv8Nv18DZPdlOtrFpSwCWjVNH2sjrq_nk9qj/pubhtml"
+          SHEET_URL: "https://docs.google.com/spreadsheets/d/e/2PACX-1vT63PjoDicpT-KLClWQUWT_jikH_8JeLGOgV-JaGZS-nv8Nv18DZPdlOtrFpSwCWjVNH2sjrq_nk9qj/pub?output=csv"
         run: |
           set -e
           curl --fail --location --silent --show-error \
